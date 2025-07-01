@@ -1,6 +1,6 @@
 # Tenzies Game
 Made as practice for Scrimba challenge.
-[https://your-netlify-url.netlify.app](https://your-netlify-url.netlify.app)
+[https://rococo-manatee-904653.netlify.app/](https://rococo-manatee-904653.netlify.app/)
 
 - Vite
 - React

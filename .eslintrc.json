@@ -1,0 +1,31 @@
+{
+    "parser": "@typescript-eslint/parser",  // Use the TypeScript parser
+    "parserOptions": {
+      "ecmaVersion": 2020,  // Use modern JS features
+      "sourceType": "module",  // Allow import/export syntax
+      "ecmaFeatures": {
+        "jsx": true  // Enable JSX support
+      }
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",  // React-specific linting rules
+      "plugin:@typescript-eslint/recommended",  // TypeScript-specific linting rules
+      "plugin:react/jsx-runtime"  // Use the React 17+ JSX Transform
+    ],
+    "plugins": [
+      "react",
+      "@typescript-eslint"
+    ],
+    "rules": {
+      "react/react-in-jsx-scope": "off",  // React 17+ doesn't need to import React for JSX
+      "@typescript-eslint/explicit-module-boundary-types": "off",  // Optionally turn off this rule
+      "@typescript-eslint/no-explicit-any": "off"  // Optionally turn off this rule
+    }
+  }
+  
